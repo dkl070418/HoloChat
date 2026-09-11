@@ -175,7 +175,7 @@ HoloChat/
 
 ## 许可
 
-请以仓库中的 LICENSE 文件为准。若尚未添加，使用前请联系作者确认授权方式。
+本项目采用 [Apache License 2.0](LICENSE) 开源发布。
 
 ---
 
