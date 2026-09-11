@@ -1,0 +1,40 @@
+# ---- local handover notes (contains machine paths / LAN IPs — never push) ----
+PROJECT_NOTES.md
+
+# ---- runtime data & secrets (never commit) ----
+data/
+downloads/
+cache/
+.tmp/
+*.db
+*.db-journal
+secret.key
+
+# ---- portable runtime & deps ----
+python/
+frontend/node_modules/
+
+# ---- build artifacts ----
+build/
+dist/
+frontend/dist/
+*.spec.bak
+
+# ---- python ----
+__pycache__/
+*.pyc
+.venv/
+
+# ---- editor / os ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ---- reasonix local state ----
+.reasonix/
+
+# ---- tool artifacts & backups ----
+.dsh-vision-router/
+backup/
+*.png.orig
